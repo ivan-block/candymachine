@@ -1,0 +1,37 @@
+{
+  "number": 10,
+  "symbol": "NB",
+  "sellerFeeBasisPoints": 450,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "AXx9Fjw1Dg8HTXtzGtXQpjm42peSqtUFtz2V1atB1Qdw",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+      "mintLimit": {
+        "id": 1,
+        "limit": 1
+      },
+      "solPayment": {
+        "value": 0.5,
+        "destination": "AXx9Fjw1Dg8HTXtzGtXQpjm42peSqtUFtz2V1atB1Qdw"
+      },
+      "startDate": {
+        "date": "2023-03-14T02:00:00Z"
+      },
+      "endDate": {
+        "date": "2023-03-14T04:00:00Z"
+      }
+    }
+  }
+}
